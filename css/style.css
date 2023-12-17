@@ -1,43 +1,37 @@
 /* font-family: 'Roboto', sans-serif; */
 /* font-family: 'Inter', sans-serif; */
 
-
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Playfair Display', serif;
+  font-family: "Playfair Display", serif;
 }
-
 
 /* ----------------------------HEADER------------------------- */
 
-
-.header-inside{
+.header-inside {
   display: flex;
   margin: 90px 120px 25px;
 }
 
-
-.header-logo{
+.header-logo {
   margin-right: 380px;
 }
 
-
-.header-theme{
+.header-theme {
   margin-right: 200px;
   margin-left: 50px;
+  display: flex;
 }
 
-
-.theme-dark{
+.theme-dark {
   margin-bottom: 5px;
 }
 
-
-.nav-item{
+.nav-item {
   margin-right: 35px;
-  font-family: 'Inter';
+  font-family: "Inter";
   font-style: normal;
   font-weight: 400;
   font-size: 12.9431px;
@@ -46,22 +40,20 @@
   text-decoration: none;
 }
 
-
-.nav-item:hover{
+.nav-item:hover {
   text-decoration: underline;
-  color: #0C86F5;
+  color: #0c86f5;
 }
 
-
-.btnSingUp{
+.btnSingUp {
   width: 95px;
   height: 30px;
   border: none;
   outline: none;
   cursor: pointer;
-  transition: .5s;
-  background: #0C86F5;
-  font-family: 'Inter';
+  transition: 0.5s;
+  background: #0c86f5;
+  font-family: "Inter";
   font-style: normal;
   font-weight: 400;
   font-size: 12.9431px;
@@ -69,31 +61,29 @@
   color: rgba(255, 255, 255, 0.95);
 }
 
-.btnSingUp:hover{
+.btnSingUp:hover {
   background: #d0f4fd;
-  color: #0C86F5;
+  color: #0c86f5;
 }
-
-
 
 /* ---------------------------MAIN----------------------------- */
 
-
-.main{
+.main {
   background-image: url(../img/Hero.png);
   background-position: center;
   background-size: cover;
 }
 
-
-.main-inside{
-  background: linear-gradient(69.49deg, #FAFDFF 35.13%, rgba(250, 253, 255, 0) 69.5%);
+.main-inside {
+  background: linear-gradient(
+    69.49deg,
+    #fafdff 35.13%,
+    rgba(250, 253, 255, 0) 69.5%
+  );
 }
 
-
-
-.main-title{
-  font-family: 'Playfair Display';
+.main-title {
+  font-family: "Playfair Display";
   font-style: normal;
   font-weight: 700;
   font-size: 63.9252px;
@@ -101,61 +91,53 @@
   color: #202020;
 }
 
-
-.main-subtitle{
-  font-family: 'Roboto', sans-serif;
+.main-subtitle {
+  font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 20px;
   line-height: 24px;
   color: #202020;
 }
 
-
-.main-suptitle{
-  font-family: 'Roboto', sans-serif;
+.main-suptitle {
+  font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 20px;
   line-height: 24px;
   color: #202020;
 }
 
-
-.main-text{
+.main-text {
   padding-left: 120px;
   padding-top: 180px;
   padding-bottom: 200px;
 }
 
-
-
 /* -------------------------INFO-1------------------------------- */
 
-
-.info-1{
-  background: linear-gradient(1.81deg, rgba(250, 253, 255, 0) -6.98%, #E7EAEC 121.28%);
+.info-1 {
+  background: linear-gradient(
+    1.81deg,
+    rgba(250, 253, 255, 0) -6.98%,
+    #e7eaec 121.28%
+  );
   mix-blend-mode: normal;
 }
 
-
-
-
-.info-1-inside{
+.info-1-inside {
   align-items: center;
   text-align: center;
   /*margin-top: 35px;*/
   margin-bottom: 50px;
 }
 
-
-
-.info1-IMG{
+.info1-IMG {
   margin-top: 35px;
 }
 
-
-.info1-TITLE{
+.info1-TITLE {
   margin-top: 10px;
-  font-family: 'Playfair Display';
+  font-family: "Playfair Display";
   font-style: normal;
   font-weight: 700;
   font-size: 37px;
@@ -164,10 +146,9 @@
   color: #000000;
 }
 
-
-.info1-SUBTITLE{
+.info1-SUBTITLE {
   margin-top: 15px;
-  font-family: 'Roboto';
+  font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
   font-size: 20.3334px;
@@ -176,11 +157,9 @@
   color: #000000;
 }
 
-
 /* -------------------------INFO-2----------------------------- */
 
-
-.info-2{
+.info-2 {
   background-position: center;
   background-size: cover;
   align-items: center;
@@ -188,18 +167,22 @@
   background-image: url(../img/BaseStation.png);
 }
 
-
-.info-2-inside{
-  background: radial-gradient(44.96% 109.84% at 49.52% -7.7%, rgba(254, 254, 254, 0) 9.15%, rgba(253, 253, 253, 0.04) 52.58%, rgba(249, 249, 249, 0.34) 73.27%, #F5F5F5 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+.info-2-inside {
+  background: radial-gradient(
+      44.96% 109.84% at 49.52% -7.7%,
+      rgba(254, 254, 254, 0) 9.15%,
+      rgba(253, 253, 253, 0.04) 52.58%,
+      rgba(249, 249, 249, 0.34) 73.27%,
+      #f5f5f5 100%
+    )
+    /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
   padding-top: 410px;
   padding-bottom: 60px;
 }
 
-
-
-.info2-TITLE{
+.info2-TITLE {
   margin-top: 10px;
-  font-family: 'Playfair Display';
+  font-family: "Playfair Display";
   font-style: normal;
   font-weight: 700;
   font-size: 37px;
@@ -208,10 +191,9 @@
   color: #000000;
 }
 
-
-.info2-SUBTITLE{
+.info2-SUBTITLE {
   margin-top: 15px;
-  font-family: 'Roboto';
+  font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
   font-size: 20.3334px;
@@ -220,30 +202,28 @@
   color: #000000;
 }
 
-
-
 /* -------------------------INFO-3----------------------------- */
 
-
-.info-3{
+.info-3 {
   background-position: center;
   background-size: cover;
   background-image: url(../img/BottleAnimation.png);
 }
 
-
-.info-3-inside{
+.info-3-inside {
   z-index: 111;
   padding-top: 350px;
   padding-bottom: 60px;
-  background: radial-gradient(57.57% 57.57% at 50% 17.04%, rgba(255, 255, 255, 0) 0%, #FFFFFF 95%);
+  background: radial-gradient(
+    57.57% 57.57% at 50% 17.04%,
+    rgba(255, 255, 255, 0) 0%,
+    #ffffff 95%
+  );
 }
 
-
-
-.info3-TITLE{
+.info3-TITLE {
   margin-top: 10px;
-  font-family: 'Playfair Display';
+  font-family: "Playfair Display";
   font-style: normal;
   font-weight: 700;
   font-size: 37px;
@@ -252,10 +232,9 @@
   color: #000000;
 }
 
-
-.info3-SUBTITLE{
+.info3-SUBTITLE {
   margin-top: 15px;
-  font-family: 'Roboto';
+  font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
   font-size: 20.3334px;
@@ -264,32 +243,27 @@
   color: #000000;
 }
 
-
 /* -----------------------FUTURED------------------------ */
 
-
-.futured{
+.futured {
   background: rgba(0, 0, 0, 0.06);
 }
 
-
-.futured-inside{
+.futured-inside {
   align-items: center;
   text-align: center;
 }
 
-
-.futured-images{
+.futured-images {
   text-align: center;
   padding-left: 150px;
   padding-bottom: 120px;
 }
 
-
-.futured-title{
+.futured-title {
   padding-top: 120px;
   padding-bottom: 25px;
-  font-family: 'Playfair Display';
+  font-family: "Playfair Display";
   font-style: normal;
   font-weight: 400;
   font-size: 37px;
@@ -297,41 +271,34 @@
   color: #000000;
 }
 
-
-.futured-images{
+.futured-images {
   display: flex;
 }
 
-
 /* -------------------SINGUP----------------------- */
 
-
-.singUp{
+.singUp {
   background: rgba(0, 0, 0, 0.04);
 }
 
-
-.singUp-titles{
+.singUp-titles {
   text-align: center;
   align-items: center;
 }
 
-
-.singUp-email{
+.singUp-email {
   margin-top: 35px;
   margin-left: 415px;
 }
 
-
-.singUp-name{
+.singUp-name {
   margin-top: 35px;
   margin-left: 415px;
 }
 
-
-.singUp-title{
+.singUp-title {
   padding-top: 130px;
-  font-family: 'Playfair Display';
+  font-family: "Playfair Display";
   font-style: normal;
   font-weight: 400;
   font-size: 37px;
@@ -340,10 +307,9 @@
   color: #000000;
 }
 
-
-.singUp-subtitle{
+.singUp-subtitle {
   padding-top: 20px;
-  font-family: 'Roboto';
+  font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
   font-size: 20.3334px;
@@ -352,10 +318,9 @@
   color: #000000;
 }
 
-
-.input-text{
+.input-text {
   margin-top: 20px;
-  font-family: 'Inter';
+  font-family: "Inter";
   font-style: normal;
   font-weight: 400;
   font-size: 17.3204px;
@@ -363,15 +328,14 @@
   color: #626262;
 }
 
-
-.input{
+.input {
   margin-top: 10px;
   width: 600px;
   height: 50px;
   border: none;
-  background: #D9D9D9;
+  background: #d9d9d9;
   padding-left: 15px;
-  font-family: 'Inter';
+  font-family: "Inter";
   font-style: normal;
   font-weight: 400;
   font-size: 17.3204px;
@@ -379,109 +343,86 @@
   color: rgba(98, 98, 98, 0.3);
 }
 
-
-.input-singUp-btn{
+.input-singUp-btn {
   margin-top: 30px;
   margin-left: 920px;
   padding-bottom: 66px;
 }
 
-
-
 /* ----------------------FOOTER------------------------ */
 
-
-.footer{
+.footer {
   background: rgba(0, 0, 0, 0.88);
 }
 
-
-.footer-inside{
+.footer-inside {
   padding-bottom: 130px;
   padding-top: 130px;
   padding-left: 130px;
   display: flex;
 }
 
-
-.footer-logo{
+.footer-logo {
   padding-top: 20px;
 }
 
-
-.footer-social{
+.footer-social {
   margin-left: 100px;
 }
 
-
-
-
-
-.social-link{
+.social-link {
   display: flex;
 }
 
-
-.link-inside{
+.link-inside {
   margin-left: 35px;
 }
 
-.link{
-  font-family: 'Roboto';
+.link {
+  font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
   line-height: 23px;
-  color: #D9D9D9;
+  color: #d9d9d9;
   text-decoration: none;
 }
 
-.link:hover{
+.link:hover {
   text-decoration: underline;
-  color: #0C86F5;
+  color: #0c86f5;
 }
 
-
-
-.social-title{
+.social-title {
   margin-left: 35px;
   margin-bottom: 15px;
-  font-family: 'Roboto';
+  font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
   font-size: 20px;
   line-height: 23px;
-  color: #D9D9D9;
+  color: #d9d9d9;
 }
 
-
-
-
-
-
-
-.adress-title{
+.adress-title {
   margin-bottom: 15px;
-  font-family: 'Roboto';
+  font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
   font-size: 20px;
   line-height: 23px;
-  color: #D9D9D9;
+  color: #d9d9d9;
 }
 
-
-.adress-text{
-  font-family: 'Roboto';
+.adress-text {
+  font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
   line-height: 23px;
-  color: #D9D9D9;
+  color: #d9d9d9;
 }
 
-
-
-.footer-adress{
+.footer-adress {
   margin-left: 150px;
 }
